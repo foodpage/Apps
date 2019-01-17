@@ -1,0 +1,16 @@
+<html>
+
+                                  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+                                  <script>
+    $(document).ready(function (){
+        if(navigator.userAgent.toLowerCase().indexOf("android") > -1){
+            window.location.href = 'https://play.google.com/store/apps/details?id=com.mpis.foodpage';
+        }
+        else if(navigator.userAgent.toLowerCase().indexOf("iphone") > -1){
+            window.location.href = 'https://itunes.apple.com/us/app/food-page/id1356973616?ls=1&mt=8';
+        }else{
+                      window.location.href = 'https://play.google.com/store/apps/details?id=com.mpis.foodpage';
+        }
+    });
+                                  </script>
+</html>
